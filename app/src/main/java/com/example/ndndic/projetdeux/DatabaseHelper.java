@@ -7,63 +7,49 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
- * Created by Administrateur on 2017-03-02.
+ * Created by ndndic on 2017-03-02.
  */
 
 public class DatabaseHelper extends SQLiteOpenHelper {
-    public static final String DATABASE_NAME = "Members.db";
-    public static final String TABLE_NAME = "Members_table";
-    public static final String COL_1 = "ID";
-    public static final String COL_2 = "NAME";
-    public static final String COL_3 = "SURNAME";
-    public static final String COL_4 = "ADDRESS";
+    public static final String Database_name ="Members.db";
+    public static final String table_name ="Profile_table";
+    public static final String col_1 ="ID";
+    public static final String col_2 ="NAME";
+    public static final String col_3 ="SURNAME";
+    public static final String col_4 ="EMAIL";
+    public static final String col_5 ="PSEUDO";
+    public static final String col_6 ="PASSWORD";
+
     public DatabaseHelper(Context context) {
-        super(context, DATABASE_NAME, null, 1);
-       // SQLiteDatabase db = this.getWritableDatabase();
+        super(context, Database_name, null, 1);
     }
 
     @Override
-    public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table "+ TABLE_NAME +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NAME TEXT, SURNAME TEXT, ADRESS TEXT)");
+    public void onCreate(SQLiteDatabase sqLiteDatabase) {
+        sqLiteDatabase.execSQL("create table "+ table_name +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NAME TEXT, SURNAME TEXT, EMAIL TEXT, PSEUDO TEXT, PASSWORD TEXT)");
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("DROP TABLE IF EXISTS "+ TABLE_NAME);
-        onCreate(db);
+    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS "+ table_name);
     }
-    public boolean insertData(String name,String surname,String marks) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        ContentValues contentValues = new ContentValues();
-        contentValues.put(COL_2,name);
-        contentValues.put(COL_3,surname);
-        contentValues.put(COL_4,marks);
-        long result = db.insert(TABLE_NAME,null ,contentValues);
-        if(result == -1)
+    public boolean insertData(String name, String surname, String email, String pseudo, String password){
+        SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
+        ContentValues cv= new ContentValues();
+        cv.put(col_2, name);
+        cv.put(col_3, surname);
+        cv.put(col_4, email);
+        cv.put(col_5, pseudo);
+        cv.put(col_6, password);
+        long res = sqLiteDatabase.insert(table_name, null,cv);
+        if (res == -1)
             return false;
-        else
-            return true;
+        else return true;
     }
-
-    public Cursor getAllData() {
-        SQLiteDatabase db = this.getWritableDatabase();
-        Cursor res = db.rawQuery("select * from "+TABLE_NAME,null);
+    public Cursor getAllData(){
+        SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
+        Cursor res = sqLiteDatabase.rawQuery("select * from "+table_name, null);
         return res;
-    }
 
-    public boolean updateData(String id,String name,String surname,String marks) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        ContentValues contentValues = new ContentValues();
-        contentValues.put(COL_1,id);
-        contentValues.put(COL_2,name);
-        contentValues.put(COL_3,surname);
-        contentValues.put(COL_4,marks);
-        db.update(TABLE_NAME, contentValues, "ID = ?",new String[] { id });
-        return true;
-    }
-
-    public Integer deleteData (String id) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        return db.delete(TABLE_NAME, "ID = ?",new String[] {id});
     }
 }

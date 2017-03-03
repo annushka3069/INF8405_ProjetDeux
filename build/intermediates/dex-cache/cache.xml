@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_b4392a010f4964ac92c1419348940fc393b6df24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_214360cf0cb0e21ab8deda444fa556319874475d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Logiciels\Android-SDK\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_fd7b742bdd62e8b9fd9e9e3eaa0cd60c2ca81b2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_ae0999e90018181644e9d381f79f075ed24a5a89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_60697670b924773ddb802c216201744a0b07b427\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_3a0b338903abe2b56254d8f51180c9cff6121f22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7c28dd13f20ec0453a4020c6c6897a974aad4525">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5729f808455e62f30229b9bde06f4ec3cb0c869e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d77dd3b26a8d84c679e0204c18ffffc1467ad157\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_2126af392cd09c082abafc1c21f854b23f71be08\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_2d9651e2f82725aaecfb68f2a52e4bf8a5000d04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f98274db9600440082ec723bc68eda2ee0e47b2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_5c02e3df7cc7b32b17237c1cf0acc66d05e8402d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_18de8ff236d4888b57f55483e1e97954cc4c91e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_c37a95226eea73077977aed92db5443b97e1befd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_a1c0b412217767997cdd0b66ebc29e4107e6ec8f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_695863e34012aa44d0574d9d8609f76050120bae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4fca2796116a19c52dc87181c69322af8bdb87a2">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4f91c98728c863701cf77c37f6e6e61bbc6dc28a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_8ab5e3439854119724ce581b61ee1643cfa6be92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_551f1b60bdd21b4b8a0c77776d9b57c96f784004\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Temp\INF8405_ProjetDeux\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_88e7dabb919e06f1d8b0b693ec93eb21cacf2624\classes.dex" />
+    </item>
+
+</items>
